@@ -29,8 +29,8 @@ alert("invalid")
 
 
 if(data.weather[0].main == "Clouds"){
-    weatherIcon.scr = "/weather-images/cloud.png"
-}else if(data.weather[0].main == "clear"){
+    weatherIcon.src = "\weather-images/clouds.png"
+}else if(data.weather[0].main == "Clear"){
     weatherIcon.src =  "/weather-images/clear.png";
 }else if(data.weather[0].main == "Rain"){
     weatherIcon.src = "/weather-images/rain.png";
